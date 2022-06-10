@@ -1,0 +1,16 @@
+ WHat is events ;
+ *all html action, response or any change handle, manipulated, or listen by Event .
+*An event handler is nothing but a callback function called when an event is triggered/The main loop listens to the event triggers and then calls the corresponding event handler.
+*An event loop is an event-listener which functions inside the NodeJS environment and is always ready to listen, process, and output for an event. 
+*The EventEmitter is a module that facilitates communication/interaction between objects in Node
+*Events in NodeJS are same as a callback. A callback function is called when a function execution is completed where the events have to be fired based on the observer. Every event has listeners and when an event is fired its related listener function starts the execution.
+
+--------------------------
+//on- when a listener is registered using the on()METHODS, that listener is invoke everty times the name event is emitted //on()methods is used to register listeners.
+
+//sysntax- on(eventName,callback)
+
+//1once- when a listener is registered using the once()mehtod, it is possible to register a listener that is called at most once for a particular event. oncethe evnt is emitted, the listener is unregistered and then called.
+
+// emit()- the emit methodsallows an arbitary set of arguments to be passed to the listener functions emit, methods is used to trigger the event
+// systax= emit(emitName, arguments)
